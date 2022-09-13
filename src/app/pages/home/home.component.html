@@ -1,0 +1,16 @@
+<!-- Cards de MUESTRA de los Productos -->
+<div class="row">
+    <p-card class="card" *ngFor="let col of coleccionProductos">
+        <ng-template pTemplate="header">
+            <img alt="Card" [src]="col.imagen" height="300px">
+            <h1>{{col.nombre}}</h1>
+            <h3>{{col.marca}}</h3>
+            <h4>${{col.precio}}</h4>
+            <div class="boton">
+                <button pButton class="p-button-success" label="Comprar"></button>
+            </div>
+        </ng-template>
+        <div class="" style="text-align: center;">
+        </div>
+    </p-card>
+</div>

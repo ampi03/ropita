@@ -1,0 +1,29 @@
+<!-- Es el Contacto -->
+<section class="contacto">
+    <div class="container">
+        <div class="contacto-box">
+            <div class="izquierda">
+            </div>
+            <div class="derecha">
+                <h2>Contáctanos</h2>
+                <span class="p-float-label">
+                    <input id="float-input" class="formulario" type="text" pInputText> 
+                    <label for="float-input" class="label">Nombre</label>
+                </span>
+                <span class="p-float-label">
+                    <input id="float-input" class="formulario" type="text" pInputText> 
+                    <label for="float-input">Apellido</label>
+                </span>
+                <span class="p-float-label">
+                    <input id="float-input" type="text" class="formulario" pInputText> 
+                    <label for="float-input">Correo electrónico</label>
+                </span>
+                <span class="p-float-label">
+                    <textarea [rows]="5" [cols]="30" class="formulario" pInputTextarea autoResize="autoResize"></textarea>
+                    <label for="float-input">Mensaje</label>
+                </span>
+                <button pButton routerLink="/productos" type="button" class="btn-producto">Ver más</button>
+            </div>
+        </div>
+    </div>
+</section>

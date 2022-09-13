@@ -1,0 +1,39 @@
+/* Diseño del Footer en general */
+footer{
+    padding: 2rem;
+    font-size: 1rem;
+    background-color: var(--surface-ground);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Deja los íconos a la derecha */
+.layout-footer-right{
+    
+    letter-spacing: 4px;
+}
+
+/* Anchor */
+a{
+    color: black;
+}
+
+/* Color del Footer */
+footer{
+    background-color: #5BB318;
+    color: #FFF7AE;
+}
+
+/* Color del ícono */
+.pi{
+    color: #FFF7AE;
+    margin: 5px;
+    
+}
+
+.pi:hover{
+    color: #EAE509;
+}

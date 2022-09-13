@@ -1,0 +1,25 @@
+<!-- Menú -->
+<p-menubar [model]="items" id="menu">
+    <!--El botón hace que aparezca el formulario-->
+    <button id="boton" type="button" (click)="showModalDialog()" style="margin-top: 15px;" pButton pRipple class="p-button-rounded p-button-success" icon="pi pi-info-circle" label="Iniciar">
+    </button>
+</p-menubar>
+
+<!-- Acá se presenta un formulario para ingresar el usuario y contraseña -->
+<div class="wrapper">
+    <p-dialog header="Iniciar sesion" [(visible)]="modalVisible">
+        <form [formGroup]="Usuarios">
+            <!-- Label Nombre Usuario -->
+            <span class="p-float-label">
+                <h2>Usuario</h2>
+                <input type="text" id="float-input" pInputText formControlName="nombreusuario">
+            </span>
+            <!-- Label Contraseña -->
+            <span class="p-float-label">
+                <h2>Contraseña</h2>
+                <input type="password" id="float-input" pInputText formControlName="contrasena">
+            </span>
+            <button id="boton" style="margin-top: 15px;" pButton pRipple type="submit" class="p-button-rounded p-button-success" (click)="verificarUsuario()" label="Ingresar"></button>
+        </form>
+    </p-dialog>
+</div>

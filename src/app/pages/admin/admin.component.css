@@ -1,0 +1,20 @@
+.boton .p-button-success{
+    margin: 20px;
+    margin-bottom: 20%;
+    
+}
+
+.boton{
+    text-align: center;
+}
+
+.coleccion{
+    margin-top: 50px;
+}
+
+/* Título */
+.texto h1{
+    text-align: center;
+    color: #5BB318;
+    font-size: 35px;
+}
