@@ -57,3 +57,14 @@ html{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+#boton{
+    background-color: #5BB318;
+    color: #FFFFFF;
+}
+
+.titulo{
+    color: #2B7A0B;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

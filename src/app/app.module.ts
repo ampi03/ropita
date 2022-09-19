@@ -50,7 +50,7 @@ import { ProductosService } from './servicios/productos.service';
     DialogModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
   ],
-  providers: [UsuariosService, ProductosService], // patentar servicios
+  providers: [UsuariosService, ProductosService], // servicios patentados
   bootstrap: [AppComponent]
 })
 export class AppModule { }

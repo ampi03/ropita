@@ -91,6 +91,8 @@ h2{
 /*es el boton del formulario*/
 .boton{
     text-align: center;
+    background-color: #EAE509;
+    color: #FFFFFF;
 }
 
 /*es el boton del formulario que si se toca cambia de color*/

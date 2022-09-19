@@ -4,7 +4,7 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { HomeComponent } from './pages/home/home.component';
 
-
+// Enlace de las rutas de los componentes
 const routes: Routes = [
   {
     path:'', component:HomeComponent

@@ -1,5 +1,5 @@
 <div class="texto">
-    <h1>Ingresa tus productos</h1>
+    <h1 class="titulo">Ingresa tus productos</h1>
 </div>
 
 <!-- Formulario para AGREGAR Producto -->
@@ -22,7 +22,7 @@
             <label for="float-input">Imagen</label>
         </span>
         <div class="" style="text-align: center; margin-top: 5px;">
-            <button pButton type="submit" label="{{textBoton}}" (click)="cargarDatos()"></button>
+            <button id="boton" pButton type="submit" label="{{textBoton}}" (click)="cargarDatos()"></button>
         </div>
     </form>
 </p-dialog>
@@ -61,10 +61,10 @@
                 <td type="image"><img [src]="producto.imagen" alt="100px" width="" height="100px"></td>
     
                 <td> 
-                    <button pButton pRipple type="button" icon="pi pi-pencil" style="margin:10px ;" class="p-button-success"
+                    <button id="boton" pButton pRipple type="button" icon="pi pi-pencil" style="margin:10px ;" class="p-button-success"
                         (click)="mostrarEditar(producto)">
                     </button>
-                    <button pButton pRipple type="button" icon="pi pi-trash" style="margin:10px ;" class="p-button-danger"
+                    <button id="boton1" pButton pRipple type="button" icon="pi pi-trash" style="margin:10px ;" class="p-button-danger"
                         (click)="mostrarEliminar(producto)">
                     </button>
                 </td>
@@ -76,5 +76,5 @@
 
 <!--este es el boton que agrega la informacion a los productos-->
 <div class="boton col-12">
-    <button pButton class="p-button-success" label="Agregar producto" (click)="mostrarDialogo()"></button>
+    <button id="boton" pButton class="p-button-success" label="Agregar producto" (click)="mostrarDialogo()"></button>
 </div>
