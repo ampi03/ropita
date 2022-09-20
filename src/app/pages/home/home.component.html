@@ -1,9 +1,12 @@
 <!-- Cards de MUESTRA de los Productos -->
 <div class="row">
     <h1 class="titulo">
-        <img src="/assets/img/icono.png" alt="" width="80px">
         Básicos Limón
+        <img src="/assets/img/icono.png" alt="" width="80px">
     </h1>
+    <h2 class="titulo2">
+        Indumentaria para toda la familia
+    </h2>
     <p-card class="card" *ngFor="let col of coleccionProductos">
         <ng-template pTemplate="header">
             <img alt="Card" [src]="col.imagen" height="300px">
